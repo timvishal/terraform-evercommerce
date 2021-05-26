@@ -26,5 +26,3 @@ Things To Do Before apply:
 
 ```
 
-
-
