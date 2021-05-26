@@ -1,12 +1,3 @@
-#variable "aws_s3_bucket_name" {
-  #description = "Bucket for cloud trail"
-  #type        = string
-#}
-
-variable "aws_account_id" {
-  default = "833631067002"
-}
-
 variable "aws_profile" {
 default = "default"
 }

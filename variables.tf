@@ -14,7 +14,7 @@ variable "aws_region" {
 
 variable "aws_s3_bucket" {
   description = "Cloud trail bucket name"
-  default = "alm-test-cloudtrail-allmanagement-s3usw2"
+  default = "subs-env-cloudtrail-allmanagement-s3"  ############### set  Subs and env ##########
 }
 
 variable "aws_sns_topic_subscription" {
@@ -27,8 +27,4 @@ variable "sns_display_name" {
   default = "AWS ALM Corp Alerts"
 }
 
-variable "aws_s3_bucket_tf_state" {
-description = "S3 bucket Name of tf-state"
-default = "terraform-state-SUBS-NAME"
-}
 
